@@ -1,0 +1,33 @@
+@import "../../index.scss";
+
+.container {
+  @extend .container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  padding: 10px;
+  &Wrapper {
+    @extend .purple-wrapper;
+  }
+  &List {
+    display: flex;
+    gap: 50px;
+    max-width: 500px;
+  }
+  &Link {
+    color: white;
+    text-transform: capitalize;
+    font-size: 28px;
+    &.active {
+      color: orange;
+    }
+    &:hover {
+      color: orange;
+    }
+  }
+}

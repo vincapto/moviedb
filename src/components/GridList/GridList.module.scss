@@ -1,0 +1,9 @@
+.gridList {
+  display: grid;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  gap: 15px;
+  row-gap: 20px;
+  grid-template-columns: repeat(3, minmax(auto, 390px));
+  justify-content: space-between;
+}

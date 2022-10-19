@@ -1,0 +1,12 @@
+.cardImage {
+  width: 100%;
+  // max-height: 375px;
+  object-fit: contain;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
+}
+
+.imageWrapper {
+  min-height: 270px;
+}

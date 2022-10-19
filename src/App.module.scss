@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+.movie {
+  &Container {
+    margin: 0 auto;
+    gap: 15px;
+    max-width: 1200px;
+    width: 100%;
+  }
+}

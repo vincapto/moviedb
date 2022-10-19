@@ -1,0 +1,22 @@
+.button {
+  background-color: purple;
+  box-sizing: border-box;
+  cursor: pointer;
+  // width: 100%;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid purple;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in;
+  & p {
+    margin: 0 auto;
+  }
+  &:hover {
+    background-color: #fff;
+    color: purple;
+  }
+}

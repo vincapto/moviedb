@@ -1,0 +1,17 @@
+@import "../../index.scss";
+
+.container {
+  @extend .container;
+}
+.wrapper {
+  @extend .purple-wrapper;
+  position: relative;
+  margin-top: auto;
+  padding: 10px;
+}
+
+.title {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}

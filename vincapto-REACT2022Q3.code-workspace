@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../task/.vscode"
+	},
+	{
+		"path": "../task/public"
+	},
+	{
+		"path": "../task/src"
+	}
+],
+  "settings": {}
+}
