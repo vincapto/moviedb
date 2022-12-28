@@ -32,6 +32,7 @@ export const fetchGenreList = async () => {
 };
 
 export const fetchMovie = async (id: number) => {
+  
   const response = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${apiKey}`);
   const movie = await response.json();
   return movie;
